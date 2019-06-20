@@ -53,6 +53,7 @@
   display: flex;
   justify-content: center;
   padding-top: 60px;
+  background-color:white;
 }
 .tabs .tabs-item {
   display: none;
@@ -94,6 +95,11 @@ body {
   box-sizing: border-box;
   min-width: 300px;
   margin: 0;
+  background: url("/img/kirby-background_1381737.png");
+  background-color:#F694A2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 .header-container {
   width: 100%;
@@ -118,6 +124,7 @@ body {
 }
 .section .box {
   padding: 40px;
+  background-color: white;
 }
 .section .box .box-title {
   font-size: 24px;
