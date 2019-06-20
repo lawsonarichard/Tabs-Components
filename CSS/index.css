@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 .dropdown .dropdown-button:hover {
-  background-color: #be2530;
+  background-color: #fdd8e4;
 }
 .dropdown .dropdown-content {
   width: 100%;
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  border: 2.5px solid #931d25;
+  border: 2.5px solid #FBA7C3;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -35,11 +35,11 @@
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
-  color: #931d25;
+  color: #FBA7C3;
 }
 .dropdown .dropdown-link:hover {
   color: #ffffff;
-  background-color: #931d25;
+  background-color: #FBA7C3;
 }
 .dropdown .dropdown-hidden {
   display: none;
@@ -68,22 +68,22 @@
 }
 .tabs .tabs-links {
   display: flex;
-  background-color: #931d25;
+  background-color: #FBA7C3;
 }
 .tabs .tabs-link {
   padding: 20px 25px;
   font-size: 24px;
-  background-color: #931d25;
+  background-color: #FBA7C3;
   border-right: 1px solid white;
   color: #ffffff;
   cursor: pointer;
 }
 .tabs .tabs-link:hover {
-  background-color: #be2530;
+  background-color: #fdd8e4;
 }
 .tabs .tabs-link-selected {
   z-index: 2;
-  border-right: 1px solid #931d25;
+  border-right: 1px solid #FBA7C3;
   background-color: #ffffff;
   color: black;
 }
@@ -102,7 +102,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #931d25;
+  background-color: #FBA7C3;
 }
 .header-container .header {
   height: 50px;
@@ -111,8 +111,8 @@ body {
   width: 70%;
   margin: 45px auto;
   display: flex;
-  border: 1px solid #931d25;
-  box-shadow: 1px 1px 5px #931d25;
+  border: 1px solid #FBA7C3;
+  box-shadow: 1px 1px 5px #FBA7C3;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -123,4 +123,14 @@ body {
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: bold;
+}
+.overimgtext {
+  position: absolute;
+  padding: 154px;
+  color: #ffffff;
+  font-size: 20em;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px black;
 }
